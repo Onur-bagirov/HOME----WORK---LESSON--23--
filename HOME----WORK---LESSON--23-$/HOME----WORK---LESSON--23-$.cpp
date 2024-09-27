@@ -31,6 +31,7 @@ void bigSmall()
     {
         BigSmall = _getch();
 
+
         if (BigSmall >= 'A' && BigSmall <= 'Z') 
         {
             _putch(BigSmall - 'A' + 'a');
